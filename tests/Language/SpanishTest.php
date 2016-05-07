@@ -1,6 +1,6 @@
 <?php
 
-namespace MarcosSegovia\PetceteraTests;
+namespace MarcosSegovia\PetceteraTests\Language;
 
 use MarcosSegovia\Petcetera\Language\EsEs;
 
