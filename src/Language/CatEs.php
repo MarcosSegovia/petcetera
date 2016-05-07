@@ -4,11 +4,11 @@ namespace MarcosSegovia\Petcetera\Language;
 
 final class CatEs extends Locale
 {
-    const SPANISH_LOCALE     = 'cat_ES';
-    const SPANISH_TERMINATOR = 'i';
+    const LANGUAGE_LOCALE     = 'cat_ES';
+    const LANGUAGE_TERMINATOR_TERM = 'i';
 
     public static function create()
     {
-        return parent::throughRaw(self::SPANISH_LOCALE, self::SPANISH_TERMINATOR);
+        return parent::throughRaw(self::LANGUAGE_LOCALE, self::LANGUAGE_TERMINATOR_TERM);
     }
 }

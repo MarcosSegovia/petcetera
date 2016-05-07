@@ -2,10 +2,10 @@
 
 namespace MarcosSegovia\Petcetera\Language;
 
-final class EsEs extends Locale
+final class DeDe extends Locale
 {
-    const LANGUAGE_LOCALE     = 'es_ES';
-    const LANGUAGE_TERMINATOR_TERM = 'y';
+    const LANGUAGE_LOCALE     = 'de_DE';
+    const LANGUAGE_TERMINATOR_TERM = 'und';
 
     public static function create()
     {
